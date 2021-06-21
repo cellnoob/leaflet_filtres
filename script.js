@@ -76,22 +76,6 @@ function onMapLoad() {
   });
 }
 
-//set selector bucle data_marker de kind_food to array eliminan repetits
-
-/*
-data.forEach(function(value){
-  let kindFoodList = value.kind_food.split(",");
-  for(i=0;i<kindFoodList.length; i++){
-							//nos indexa toda la lista de tipos de cocina dentro de la array. Nos muestra la lista
-							if(kind_food.indexOf(kindFoodList[i])==-1){
-								kind_food.push(kindFoodList[i]);
-							}
-						}
-
-})*/
-
-/*  render_to_map(data_markers, "all");
-  });*/
 
 /*async function onMapLoad(datos){
 		let joke = await fetch(datos);
