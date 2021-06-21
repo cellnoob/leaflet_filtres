@@ -5,17 +5,51 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+    <style>
+      .row {
+        display: flex;
+      }
+    </style>
   </head>
   <body>
+    
     <div class="row">    
       <p>Tipos de restaurantes:
         <span>
           <select id='kind_food_selector'></select>
         </span>
       </p>
+      <button id="btn-clean" onclick="cleanMarkers()">Limpiar Marcadores</button>
+
+      <p>Geolocalizacion: </p>
+      <button id="btn-click" onclick="showOrNot()">Enable/Disable</button>
+
+
+      
     </div>
+
     
     <div id="mapid" class="row"></div>
+
+    <p>Fotografías:
+      <span>
+      <select id='foto_selector' onchange="swapImage();">
+        <option value="img/01_la_pachuca_comp.jpg">Pachuca</option>
+        <option value="img/02_oaxaca_comp.jpg"">Oaxaca</option>
+        <option value="img/03_la_gavina_comp.jpg">La Gavina</option>
+        <option value="img/04_the_green_spot_comp.jpg">The Green spot</option>
+        <option value="img/05_honest_green_born_comp.jpg"">Honest green</option>
+        <option value="img/06_takumi_sapporo_ramen_comp.jpg">Takumi</option>
+        <option value="img/07_restaurante_beirut_comp.jpg">Beirut</option>
+        <option value="img/08_bombay_spicy_comp.jpg"">Bombay</option>
+        <option value="img/09_italiano_rossini_comp.jpg">Rossini</option>
+        <option value="img/10_la_tagliatella_comp.jpg"">Tagliatella</option>
+
+      </select>
+      <img id="imageToSwap" src="#" alt="foto!"/>
+      </span>
+      
+    </p>
     <style>
 		#mapid { height: 400px;}
 	</style>

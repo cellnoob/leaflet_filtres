@@ -1,83 +1,93 @@
 
 [
-    {
-      "ID_restaurant": "1",
-      "name": "La Pachuca",
-      "address": "Carrer d'en Carabassa, 19, 08002 Barcelona",
-      "lat": "41.380152219125700",
-      "lng": "2.1797073320004063",
-      "Kind_food": "Mexicà"
-    },
-    {
-      "ID_restaurant": "2",
-      "name": "Oaxaca",
-      "address": "Pla de Palau, 19, 08003 Barcelona\r\n\r\n",
-      "lat": "41.382172520583630",
-      "lng": "2.1840083253739110",
-      "Kind_food": "Mexicà,Vegetarià"
-    },
-    {
-      "ID_restaurant": "3",
-      "name": "La Gavina",
-      "address": "Plaça de Pau Vila, 1, 08039 Palau De Mar, Barcelona",
-      "lat": "41.381600400728430",
-      "lng": "2.1854041255715204",
-      "Kind_food": "Mediterrani"
-    },
-    {
-      "ID_restaurant": "4",
-      "name": "The Green Spot",
-      "address": "Carrer de la Reina Cristina, 12, 08003 Barcelona",
-      "lat": "41.382147639124256",
-      "lng": "2.1839020880886384",
-      "Kind_food": "Vegetarià,Mediterrani"
-    },
-    {
-      "ID_restaurant": "5",
-      "name": "Honest Green Born",
-      "address": "Pla de Palau, 11, 08003 Barcelona",
-      "lat": "41.383685418039605",
-      "lng": "2.1836702280101060",
-      "Kind_food": "Vegetarià"
-    },
-    {
-      "ID_restaurant": "6",
-      "name": "Takumi Sapporo Ramen Kitchen",
-      "address": "Via Laietana, 32, 08003 Barcelona",
-      "lat": "41.385140629739105",
-      "lng": "2.1774248283505240",
-      "Kind_food": "Japonés"
-    },
-    {
-      "ID_restaurant": "7",
-      "name": "Restaurante Beirut",
-      "address": "Carrer de Josep Anselm Clavé, 7, 08002 Barcelona",
-      "lat": "41.378400641536150",
-      "lng": "2.1778721825791780",
-      "Kind_food": "Libanés"
-    },
-    {
-      "ID_restaurant": "8",
-      "name": "Bombay Spicy Restaurant",
-      "address": "Carrer de Sant Pau, 16, 18, 08001 Barcelona",
-      "lat": "41.380845979505020",
-      "lng": "2.1729320847270737",
-      "Kind_food": "Indi"
-    },
-    {
-      "ID_restaurant": "9",
-      "name": "Restaurante Italiano Rossini",
-      "address": "Pl. Reial, 13, 08002 Barcelona",
-      "lat": "41.380553159180040",
-      "lng": "2.1745144385083592",
-      "Kind_food": "Italià"
-    },
-    {
-      "ID_restaurant": "10",
-      "name": "Restaurante La Tagliatella",
-      "address": "Ronda de la Universitat, 31, 08007 Barcelona",
-      "lat": "41.387192622132820",
-      "lng": "2.1672743479438600",
-      "Kind_food": "Mediterrani,Italià"
-    }
-  ]
+  {
+    "ID_restaurant": "1",
+    "name": "La Pachuca",
+    "address": "Carrer d'en Carabassa, 19, 08002 Barcelona",
+    "lat": "41.380152219125700",
+    "lng": "2.1797073320004063",
+    "Kind_food": "Mexicà",
+    "photo": "01_la_pachuca.jpg"
+  },
+  {
+    "ID_restaurant": "2",
+    "name": "Oaxaca",
+    "address": "Pla de Palau, 19, 08003 Barcelona\r\n\r\n",
+    "lat": "41.382172520583630",
+    "lng": "2.1840083253739110",
+    "Kind_food": "Mexicà,Vegetarià",
+    "photo": "02_oaxaca.jpg"
+  },
+  {
+    "ID_restaurant": "3",
+    "name": "La Gavina",
+    "address": "Plaça de Pau Vila, 1, 08039 Palau De Mar, Barcelona",
+    "lat": "41.381600400728430",
+    "lng": "2.1854041255715204",
+    "Kind_food": "Mediterrani",
+    "photo": "03_la_gavina.jpg"
+  },
+  {
+    "ID_restaurant": "4",
+    "name": "The Green Spot",
+    "address": "Carrer de la Reina Cristina, 12, 08003 Barcelona",
+    "lat": "41.382147639124256",
+    "lng": "2.1839020880886384",
+    "Kind_food": "Vegetarià,Mediterrani",
+    "photo": "04_the_green_spot.jpg"
+  },
+  {
+    "ID_restaurant": "5",
+    "name": "Honest Green Born",
+    "address": "Pla de Palau, 11, 08003 Barcelona",
+    "lat": "41.383685418039605",
+    "lng": "2.1836702280101060",
+    "Kind_food": "Vegetarià",
+    "photo": "05_honest_green_born.jpg"
+  },
+  {
+    "ID_restaurant": "6",
+    "name": "Takumi Sapporo Ramen Kitchen",
+    "address": "Via Laietana, 32, 08003 Barcelona",
+    "lat": "41.385140629739105",
+    "lng": "2.1774248283505240",
+    "Kind_food": "Japonés",
+    "photo": "06_takumi_sapporo_ramen.jpg"
+  },
+  {
+    "ID_restaurant": "7",
+    "name": "Restaurante Beirut",
+    "address": "Carrer de Josep Anselm Clavé, 7, 08002 Barcelona",
+    "lat": "41.378400641536150",
+    "lng": "2.1778721825791780",
+    "Kind_food": "Libanés",
+    "photo": "07_restaurante_beirut.jpg"
+  },
+  {
+    "ID_restaurant": "8",
+    "name": "Bombay Spicy Restaurant",
+    "address": "Carrer de Sant Pau, 16, 18, 08001 Barcelona",
+    "lat": "41.380845979505020",
+    "lng": "2.1729320847270737",
+    "Kind_food": "Indi",
+    "photo": "08_bombay_spicy.jpg"
+  },
+  {
+    "ID_restaurant": "9",
+    "name": "Restaurante Italiano Rossini",
+    "address": "Pl. Reial, 13, 08002 Barcelona",
+    "lat": "41.380553159180040",
+    "lng": "2.1745144385083592",
+    "Kind_food": "Italià",
+    "photo": "09_italiano_rossini.jpg"
+  },
+  {
+    "ID_restaurant": "10",
+    "name": "Restaurante La Tagliatella",
+    "address": "Ronda de la Universitat, 31, 08007 Barcelona",
+    "lat": "41.387192622132820",
+    "lng": "2.1672743479438600",
+    "Kind_food": "Mediterrani,Italià",
+    "photo": "10_la_tagliatella.jpg"
+  }
+]
