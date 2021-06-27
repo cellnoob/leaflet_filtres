@@ -57,7 +57,7 @@ function onMapLoad() {
     }
 
     //photo
-
+/*
     for (let marker of data_markers) {
       markers.addLayer(
         L.marker([marker.lat, marker.lng]).bindPopup(
@@ -72,6 +72,7 @@ function onMapLoad() {
         )
       );
     }
+    */
     map.addLayer(markers);
   });
 }
@@ -112,6 +113,8 @@ function render_to_map(data_markers, filter) {
           data_markers[i].address +
           "<br><i>" +
           data_markers[i].Kind_food +
+          "<br></i>" +
+          data_markers[i].photo +
           "</i>"
       );
       markers.addLayer(marker);
@@ -139,11 +142,11 @@ function geolocalizador() {
   navigator.geolocation.getCurrentPosition(
     function (position) {
       console.log(position);
-      var marker = L.marker([
+      var circle = L.circle([
         position.coords.latitude,
         position.coords.longitude,
-      ]).addTo(map);
-      marker.bindPopup("<b>Usted esta aquí</b>").openPopup();
+      ],{color: 'red', radius: 100}).addTo(map);
+      circle.bindPopup("<b>Usted esta aquí</b>").openPopup();
     },
     function (error) {
       console.log(error);
